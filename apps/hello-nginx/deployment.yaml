@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.25
+        image: 192.168.50.50:5000/hello-nginx:v1
         ports:
         - containerPort: 80
