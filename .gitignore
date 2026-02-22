@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Kubernetes generated
+*.retry
+
+# Terraform (future-proofing)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Helm (if you introduce later)
+charts/*.tgz
